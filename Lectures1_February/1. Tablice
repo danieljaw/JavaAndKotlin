@@ -1,1 +1,26 @@
 // Korzystając z właściwości kolekcji ArrayList(), napisz program, który do kolekcji tego typu dodaje 6 różnych liczb, a następnie je sortuje. Po wykonaniu tej operacji należy usunąć drugi element z listy, dodać nowy element do listy i wykonać ponowne sortowanie.
+
+
+import java.util.*;
+
+public class Zadanie1_lista {
+    public Zadanie1_lista() {
+
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        // jeszcze nie używam zmiennej list
+        list.add(1);
+        list.add(9);
+        list.add(4);
+        list.add(5);
+        list.add(2);
+        list.add(89);
+        list.add(4);
+        list.add(8);
+        System.out.println("Nieposortowana lista: "+ list);
+    }
+
+}
+
