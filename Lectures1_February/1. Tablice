@@ -1,0 +1,1 @@
+// Korzystając z właściwości kolekcji ArrayList(), napisz program, który do kolekcji tego typu dodaje 6 różnych liczb, a następnie je sortuje. Po wykonaniu tej operacji należy usunąć drugi element z listy, dodać nowy element do listy i wykonać ponowne sortowanie.
