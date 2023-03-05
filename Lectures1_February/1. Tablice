@@ -26,3 +26,36 @@ public class Zadanie1_lista {
 
 }
 
+// nowe
+
+import java.util.*;
+
+public class Zadanie1_lista {
+    public Zadanie1_lista() {
+
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        // jeszcze nie używam zmiennej list
+        list.add(1);
+        list.add(9);
+        list.add(4);
+        list.add(5);
+        list.add(2);
+        list.add(8);
+        list.add(4);
+        list.add(8);
+        System.out.println("Nieposortowana lista: "+ list);
+        Collections.sort(list);
+        System.out.println("Posortowana: "+list);
+        list.add(3);
+        Collections.sort(list);
+        System.out.println("Dodane i usunate"+ list + "posortowane");
+
+    }
+
+}
+
+
+
