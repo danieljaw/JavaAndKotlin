@@ -13,3 +13,4 @@ public class BMICalculator {
         System.out.print("Enter your weight in kg: ");
         double weight = input.nextDouble();
 
+// ans3
