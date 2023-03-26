@@ -32,3 +32,12 @@ public class BMICalculator {
         } else if (bmi >= 18.5 && bmi < 25) {
             System.out.println("Your weight is normal. Keep up the good work!");
         } else if (bmi >= 25 && bmi < 30) {
+
+            System.out.println("You are overweight. You should eat more fruits, vegetables, and whole grains and cut back on high-fat and high-sugar foods.");
+        } else {
+            System.out.println("You are obese. You should consult a dietitian and make significant changes to your lifestyle.");
+        }
+
+        input.close();
+    }
+}
