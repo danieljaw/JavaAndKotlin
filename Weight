@@ -1,0 +1,5 @@
+package com.example.mybmicalculator;
+
+import java.util.Scanner;
+
+public class BMICalculator {
