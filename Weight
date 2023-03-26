@@ -3,3 +3,13 @@ package com.example.mybmicalculator;
 import java.util.Scanner;
 
 public class BMICalculator {
+
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Prompt user to input their weight in kg and height in meters
+        System.out.print("Enter your weight in kg: ");
+        double weight = input.nextDouble();
+
